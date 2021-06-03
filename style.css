@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/* ADICIONANDO FONTE */
+@font-face {
+    font-family: '8-bits';
+    src: url('fonte/8-BIT\ WONDER.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* REMOVENDO CONFIGURAÇÕES INICIAIS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+/* PRINCIPAL */
+
+
+/* TOP */
+#top {
+    width: auto;
+    min-width: 1100px;
+    height: 170px;
+    background: #ff393a;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#navbar {
+    font-family: '8-bits';
+    font-size: 12px;
+    margin: 10px;
+}
+
+.sub-navbar {
+    background-color: #00deff;
+    padding: 7px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* LINK */
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#navbar a {
+    margin: 10px;
+}
+
+#navbar a:hover {
+    color: #fff;
+    background-color: #008da3;
+}
+
+
+/* CHAMADA PRINCIPAL */
+#chamada-principal {
+    background: url(imagens/background/background2-pequeno.png) no-repeat top center;
+    min-width: 1100px;
+    text-align: center;
+}
+
+#postagem-chamada {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-right: 200px;
+}
+
+#postagem-chamada p, #postagem-chamada h1 {
+    color: #fff;
+    padding: 10px;
+    text-shadow: 1px 1px #424242;
+}
+
+#postagem-chamada p{
+    font-size: 17px;
+}
+
+img.img-principal {
+    width: 100%;
+}
+
+.conteudo-chamada {
+    width: 300px;
+    margin: 50px;
+}
+
+.botao {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.botao a {
+    background-color: #ff393a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.botao a:hover {
+    background-color: #9c2424;
+}
+
+
+/* POSTAGEM PRINCIPAL */
+#postagem-principal {
+    font-family: '8-bits';
+    font-size: 12px;
+    text-align: center;
+}
+
+.conteudo {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagem-principal {
+    background: #ffce29;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.imagem-nintendo {
+    background: #e70012;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+hr {
+    width: 1000px;
+    border: 1px solid #a1a1a1;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+
+/* RODAPÉ */
+#rodape {
+    background-color: #000000;
+    width: auto;
+    height: 200px;
+    text-align: center;
+
+}
+
+.titulo-rodape {
+    color: white;
+    font-family: '8-bits';
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.conteudo-rodape {
+    display: inline-block;
+    margin: 30px;
+}
+
+.conteudo-rodape a {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.conteudo-rodape a:hover {
+    background-color: #007c4a;
+}
